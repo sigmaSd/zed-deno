@@ -1,0 +1,13 @@
+[
+  {
+    "label": "deno test $ZED_SYMBOL",
+    "command": "deno",
+    "args": ["test","-A", "--filter=$ZED_SYMBOL", "$ZED_FILE"],
+    "tags": ["deno-test"]
+  },
+  {
+    "label": "deno test",
+    "command":"deno",
+    "args": ["test","-A", "$ZED_FILE"]
+  }
+ ]
